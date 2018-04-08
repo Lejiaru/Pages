@@ -1,0 +1,83 @@
+* {
+    padding:0;
+    margin:0;
+    list-style: none;
+    border:none;
+    font-family:"微软雅黑", "黑体", "仿宋", Arial, "Arial Unicode MS", System;
+}
+a {text-decoration: none;}
+/* ----------- 搜索界面 -----------*/
+.search-box {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:69%;
+    height:30px;
+    padding:6px;
+    border:1px solid #000;
+    border-radius:5px;
+}
+.search-box-click {
+    width:69%;
+    height:30px;
+    padding:6px;
+    margin:25px auto 0;
+    border:1px solid #000;
+    border-radius:5px;
+}
+.search-inp {
+    width:90%;
+    height:100%;
+    outline:none;
+}
+.search-btn {
+    width:9%;
+    height:100%;
+    color:#fef5f5;
+    background:#111;
+    text-align:center;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor:pointer;
+}
+.content-box {
+    width:70%;
+    margin:15px auto;
+    visibility:hidden;
+}
+.table-device {
+    width:100%;
+    border:1px solid #111;
+    border-right:none;
+}
+.table-details-show {
+    visibility:visible;
+}
+.table-device td {
+    text-align:center;
+    border-top:1px solid #111;
+    line-height:25px;
+}
+.table-device tr:hover {
+    background-color: #eee;
+}
+.table-device td , .table-device th {
+    border-right:1px solid #111;
+}
+.page {
+    width:50%;
+    margin:20px 0;
+    float:right;
+    display: flex;
+    justify-content: space-between;
+}
+.page a {
+    color:#333;
+    border:1px solid #333;
+    padding:5px 10px;
+}
+.page a:active ,.page a:hover {
+    background-color: #333;
+    color:#fff;
+}
