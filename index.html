@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8" />
+    <title>second-maven</title>
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="search-box" id="search_box">
+        <input class="search-inp" name="search" id="search_inp"  type="text" onkeypress="if(event.keyCode == 13)Search()" placeholder="请输入字段" />
+        <button class="search-btn" onclick="Search()">搜索</button>
+    </div>
+    <div class="content-box" id="content_box">
+        <table class="table-device" id="table_device" cellspacing="0">
+            <tr>
+                <th>设备类型</th>
+                <th>设备品牌</th>
+                <th>IP</th>
+                <th>国家</th>
+                <th>省份</th>
+                <th>城市</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a  href="details.html"> onclick="Refresh()">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+            <tr>
+                <td>sensor</td>
+                <td>SONG</td>
+                <td>10.10.12.143</td>
+                <td>中国</td>
+                <td>江苏</td>
+                <td>盐城</td>
+                <td><a href="details.html">详情</a></td>
+            </tr>
+        </table>
+        <!-- 分页 -->
+
+        <ul class="page">
+            <li id="First"><a href="javascript:firstPage();">首页</a></li>
+            <li id="Pre"><a href="javascript:prePage();">上一页</a></li>
+            <li id="Next"><a href="javascript:nextPage();">下一页</a></li>
+            <li id="Last"><a href="javascript:lastPage();">尾页</a></li>
+            <li>第<span id="pageNum"></span>页</li>
+            <li>共<span id="totalPage"></span>页</li>
+        </ul>
+    </div>
+
+    <script src="index.js}"></script>
+</body>
+</html>
